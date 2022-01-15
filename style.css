@@ -18,10 +18,19 @@ body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 50px;}
+ /* ------- mouse hover..--------  */
+ .camera-main img{
+     width: 350px;
+     transition: width 5s linear;
+ }
+ 
+ .camera-main img:hover{
+        width: 500px;
+        
+    }
+
     
-   
-}
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(red,white);
@@ -42,6 +51,7 @@ hr{
     padding-right: 30px;
     padding-left: 30px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -80,4 +90,40 @@ hr{
 }
 span{
     margin-left: 1em;
+}
+
+/* <!-- Feature products   */
+/* -------------------------------------> */
+.container-3{
+    margin-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+
+.feature-product{
+    display: flex;
+    
+}
+
+.feature-product .feature-banner img{
+    width: 400px;
+    height: 250px;
+    padding-right: 50px;
+    border-radius: 10px;
+}
+
+/*------------------------ Footer style ------------------------- */
+footer{
+    text-align: center;
+    background-color: rgb(23, 3, 43);
+  
+    color: seashell;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.footer .social-icon{
+    margin-right: 20px;
+    
 }
