@@ -1,0 +1,43 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Influencer produts style  */
+
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.journey-one {
+    font-size: 25px;
+}
+.start-journey{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 40px;
+    margin-bottom: 50px;
+    
+   
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(red,white);
+    padding: 5px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 50px;
+    
+}
+
+/* <!----------- Popular collection  style-------------
+------------------------------------------------> */
+.popular-tittle{
+    text-align: center;
+}
