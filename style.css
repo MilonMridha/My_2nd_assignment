@@ -8,8 +8,8 @@ body{
 /* Influencer produts style  */
 
 .container{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 .journey-one {
     font-size: 25px;
@@ -38,6 +38,46 @@ hr{
 
 /* <!----------- Popular collection  style-------------
 ------------------------------------------------> */
+.container-2{
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+
 .popular-tittle{
     text-align: center;
+}
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 20px;
+    
+}
+.collection .collection-banner img{
+    width: 300px;
+    height: 256px;
+
+}
+.see-bar{
+    text-align: right;
+    color: crimson;
+}
+
+
+
+   
+
+
+
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color:  #AEAEAE;
+}
+span{
+    margin-left: 1em;
 }
